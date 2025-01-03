@@ -1,0 +1,84 @@
+/* Default styles for the prodetail section */
+#prodetail {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  gap: 20px; /* Adds space between items */
+}
+
+#prodetail .main-image {
+  width: 40%; /* Default width */
+  max-width: 400px; /* Limit max size */
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Adds spacing between thumbnails */
+}
+
+.samll-img-col {
+  flex: 1; /* Make thumbnails flexible */
+  max-width: 70px; /* Constrain thumbnail size */
+  cursor: pointer;
+}
+
+#prodetail .single-pro-detail {
+  width: 50%; /* Default width */
+  padding-top: 30px;
+}
+
+#prodetail .single-pro-detail h4,
+#prodetail .single-pro-detail h3,
+#prodetail .single-pro-detail h1 {
+  padding: 10px 0;
+}
+
+#prodetail .single-pro-detail h3 {
+  font-size: 20px;
+}
+
+#prodetail .single-pro-detail select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetail .single-pro-detail select:focus {
+  outline: none;
+}
+
+#prodetail .single-pro-detail input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#prodetail .single-pro-detail input:focus {
+  outline: none;
+}
+
+#prodetail .single-pro-detail button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#prodetail .single-pro-detail span {
+  line-height: 25px;
+}
+
+.pro-d {
+  display: none;
+}
+
+
